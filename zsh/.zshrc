@@ -104,4 +104,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias update="sudo dnf update -y && flatpak update -y"
 eval "$(starship init zsh)"
-source /home/joaop/Gits/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/$(whoami)/Gits/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
